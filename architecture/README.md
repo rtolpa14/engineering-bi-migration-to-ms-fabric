@@ -5,8 +5,8 @@ The following diagram illustrates the end-to-end data flow from the source ERP s
 ![architecture](fabric-migration-flow-chart.png)
 
 **1. Source System (ODBC ERP)**
-- Engineering and project data sourced from an on-prem / hosted ERP system
-- Accessed via ODBC connector
+- Engineering and project data sourced from Ajera cloud ODBC
+- Accessed via ODBC connector in Fabric 
 - Read-only access; no operational impact to source system
 
 **2. Microsoft Fabric Data Pipeline**
@@ -31,4 +31,4 @@ The following diagram illustrates the end-to-end data flow from the source ERP s
 
 **6. Business Users**
 - Engineering leadership and stakeholders consume reports via Power BI Service
-- Improved load times and reduced refresh failures
+- Improved refresh times - automatic - no human involvement
