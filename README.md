@@ -2,6 +2,9 @@
 
 A project to modernize the backend architecture of an engineering reporting suite by centralizing data and reporting in Microsoft Fabric for the Engineering division of a construction company.
 
+## Confidentiality Notice
+This repository contains no proprietary data, credentials, or company-specific identifiers.
+
 ---
 
 ## Project Summary
