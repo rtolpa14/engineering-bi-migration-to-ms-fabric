@@ -6,7 +6,7 @@ A project to modernize the backend architecture of an engineering reporting suit
 
 ## Project Summary
 
-This project focused on modernizing the data foundation that supported an existing Power BI reporting suite used by engineering and finance leadership.
+This project focused on modernizing the data foundation that supported the existing Power BI reporting suite used by engineering and finance leadership.
 
 The work included building a data pipeline to replicate data from an Engineering ERP system into Microsoft Fabric, enabling full control over backend data used for reporting and allowing for the creation of custom cross-reference and snapshot tables. Once the Lakehouse was established, the Power BI semantic model was reworked to replace legacy data sources—including Excel files and Gen1 Dataflows—with Fabric Lakehouse tables acting as a SQL-based backend.
 
