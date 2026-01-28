@@ -19,4 +19,5 @@
 ## End Result
 
 - This pipeline takes around 8-10 minutes to run and is on a schedule to run every two hours. During busy times like month end close it will be run every hour.
+- Everything is pushed to a Fabric Lakehouse where the data can be accessed via a SQL endpoint and used in Power BI via SQL Server connection.
 - This pipeline is relatively efficient pertaining to fabric capacity.
