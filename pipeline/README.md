@@ -4,12 +4,11 @@
 
 ## Source Data
 
-- The source data comes from the Ajera Cloud ODBC where read-only access was allowed to pull data via SQL queries
+- The source data comes from the ODBC where read-only access was allowed to pull data via SQL queries
 
 ## Lookup Tables
 
 - Tables were created via Excel and uploaded into the Lakehouse to use as guides for determining which tables needed full overwrite update and which tables needed incremental refreshes.
-- there are two tables: ajera_queries and trans_queries. The ajera queries are the overwrite tables and the trans tables are the incremental refresh tables.
 - The tables needing incremental refreshes were the transaction tables which housed in excess of 2m rows.
 - Stored in the lookup tables are the table names needed and a SQL query which is used to copy the data from the ODBC.
 
