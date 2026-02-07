@@ -1,3 +1,3 @@
 
 
-![semantic model](Semantic Model Blurred.png)
+![semantic model](semantic_model.png)
