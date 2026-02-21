@@ -14,4 +14,4 @@ left join Employee e2 on e.empSupervisorName = e2.empName
 left join EmployeeType et on e.empEmployeeType = et.etKey
 
 
-select * from Employee where empName like '%INTELLASSIST%'
+
