@@ -9,10 +9,10 @@ ci.ciInvoiceNumber,
 tProjectDescription,
 --p.prjEntityDescription,
 CASE 
-    WHEN p.prjEntityDescription = '700 - Engineers - Survey' THEN 'Survey'
-    WHEN p.prjEntityDescription = '720 - Engineers - Land Development' THEN 'Land'
-    WHEN p.prjEntityDescription = '710 - Engineers - Gas Design' THEN 'Gas Design'
-    WHEN p.prjEntityDescription = '900 - DDSHOLDCO LLC' then ''
+    WHEN p.prjEntityDescription = 'Engineers - Survey' THEN 'Survey'
+    WHEN p.prjEntityDescription = 'Engineers - Land Development' THEN 'Land'
+    WHEN p.prjEntityDescription = 'Engineers - Gas Design' THEN 'Gas Design'
+    WHEN p.prjEntityDescription = 'HOLDCO' then ''
 END AS PhaseDepartment,
 ci.ciInvoiceDate,
 c.cDescription as Client_Name,
@@ -41,4 +41,5 @@ and isnull(CASE WHEN ((ci.ciInvoiceDate BETWEEN '01-01-1900' AND '12-31-2078') O
 -- prjProjectManagerName
 -- from #tmp
 -- where IsInvoiced = 1
+
 
